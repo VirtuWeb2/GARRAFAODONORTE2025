@@ -58,7 +58,7 @@ const Noticia = ({ tvPosts, loadingPosts }) => {
     return (
       <>
         <Helmet>
-          <title>{noticia?.title.slice(0, 10) + "..."} | É Notícia Capanema</title>
+          <title>{noticia?.title.slice(0, 10) + "..."} | É Notícia Garrafão do Norte</title>
         </Helmet>
         <div className="root" style={{ minHeight: "200vh" }}>
           <Header />
